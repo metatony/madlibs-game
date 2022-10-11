@@ -3,7 +3,7 @@ import "dart:io";
 void main() {
   
   print('Enter a color: ');
-   color = stdin.readLineSync();
+  String color = stdin.readLineSync();
   
   print('Enter a plural noun: ');
   String pluralNoun = stdin.readLineSync();
