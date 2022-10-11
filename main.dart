@@ -3,7 +3,7 @@ import "dart:io";
 void main() {
   
   print('Enter a color: ');
-  String color = stdin.readLineSync();
+   color = stdin.readLineSync();
   
   print('Enter a plural noun: ');
   String pluralNoun = stdin.readLineSync();
@@ -12,6 +12,7 @@ void main() {
   String celebrity = stdin.readLineSync();
   
   print("Roses are ${color}");
-  print("$pluralNoun are blue");
+  print("${pluralNoun} are blue");
   print("I love are ${celebrity}");
+
 }
